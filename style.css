@@ -12,8 +12,9 @@ body{
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-color: #121214;
+    background-color: #080A0E;
 }
+
 body * {
     font-family: "inter", sans-serif;
     line-height: 160%;
@@ -60,7 +61,7 @@ section{
     border-radius: 10px;
 }
 section div{
-    background-color: #2A2634;
+    background-color: #252728;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -86,6 +87,7 @@ section ul{
 section ul li{
     transition: transform .4s;
 }
+
 section ul li:hover{
     transform: scale(1.1);
 }
@@ -100,6 +102,8 @@ section ul li:hover{
     width: 70px;
     border: 1px solid #443E54;  
 }
+
+    
 
 /*animação*/
 
@@ -124,7 +128,7 @@ main section:nth-child(3){
 }
 
 @keyframes fromTop {
-    from{
+    from {
         opacity: 0;
         transform: translateY(-30px);
     }
@@ -137,7 +141,7 @@ main section:nth-child(3){
 
 @keyframes fromBottom {
 
-    from{
+    from {
         opacity: 0;
         transform: translateY(30px);
     }
@@ -148,4 +152,22 @@ main section:nth-child(3){
     }
 }
 
+@media (min-width: 768px) {
+    Body{
+background-image: url(./assets/bg.png);
+background-position: top center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #080A0E;
+    }
 
+}
+
+/*@media screen and (min-width: 768px){
+    body{
+background-image: url(./assets/bg.png);
+background-position: top center;
+/*background-size: 100% auto;
+background-repeat: no-repeat;
+background-color: #080A0E;
+}*/
