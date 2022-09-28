@@ -7,8 +7,9 @@
 ul{
     list-style: none;
 }
+
 body{
-    background-image: url(./assets/bg.png);
+    background-image: url(./assets/Bg\ mobile.png);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -103,6 +104,13 @@ section ul li:hover{
     border: 1px solid #443E54;  
 }
 
+@media screen and (min-width: 768px){
+    Body {
+background-image: url(./assets/bg.png);
+background-repeat: no-repeat;
+background-color: #080A0E;
+    }
+}
     
 
 /*animação*/
@@ -152,16 +160,7 @@ main section:nth-child(3){
     }
 }
 
-@media (min-width: 768px) {
-    Body{
-background-image: url(./assets/bg.png);
-background-position: top center;
-background-size: cover;
-background-repeat: no-repeat;
-background-color: #080A0E;
-    }
 
-}
 
 /*@media screen and (min-width: 768px){
     body{
